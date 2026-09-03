@@ -1,0 +1,16 @@
+{
+  "name": "iglovod-homepage-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Независимая демонстрационная главная страница компании «Игловод».",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "node scripts/check-assets.mjs",
+    "dev": "node scripts/serve.mjs . 5173",
+    "build": "node scripts/check-assets.mjs && node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs dist 4173"
+  }
+}
